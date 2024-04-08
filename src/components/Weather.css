@@ -1,0 +1,63 @@
+.weather {
+    /* Center align all content within the .weather container */
+    display: flex;
+ 
+    align-items: center;
+    flex-direction: column; /* Stack elements vertically */
+    min-height: 100vh;
+    background: url('../weather.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .weather h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #ffffff; /* Set text color to white */
+    margin-bottom: 30px; /* Add bottom margin to separate from input */
+  }
+  
+  .weather input {
+    width: 30%; /* Set the width of the input field */
+    height: 40px; /* Set the height of the input field */
+    margin: 20px; /* Add margin around the input field */
+    padding: 10px; /* Add padding to the input field */
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+    font-size: 16px; /* Set the font size of the input field */
+    border-radius: 20px; /* Round the corners of the input field */
+    text-align: center;
+    border: none;
+  }
+  
+  .weather button {
+    width: 150px; /* Set a specific width for the button */
+    height: 45px; /* Set the height of the button */
+    margin-top: 20px; /* Add top margin to the button for spacing */
+    background: #020202;
+    border: none;
+    outline: none;
+    border-radius: 20px; /* Round the corners of the button */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 700;
+  }
+
+
+
+   .bottom {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 90%;
+    margin: 1rem auto;
+    padding: 1rem;
+    border-radius: 30px;
+    background-color: rgba(255,255,255, 0.2);
+    color: white;
+    align-items: flex-end;
+    bottom: 0;
+    position: fixed;
+  }
+  
